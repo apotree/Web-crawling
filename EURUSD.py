@@ -2,7 +2,7 @@ import requests, re
 from bs4 import BeautifulSoup
 
 i = 1
-numbers = []
+numbers = [] 
 
 
 def get_bp_info(url):
