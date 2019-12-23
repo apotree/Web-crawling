@@ -21,9 +21,5 @@ def get_bp_info(url):
             print("Date :", date + " Price :", nums)
 
 
-def remove_tags(lists):
-    re.replace()
-
-
 for i in range(1, 1100):
     get_bp_info("https://finance.naver.com/marketindex/worldDailyQuote.nhn?fdtc=4&marketindexCd=FX_EURUSD&page=" + str(i))
