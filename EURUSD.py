@@ -10,7 +10,7 @@ def get_bp_info(url):
     result = requests.get(url)
     bs_obj = BeautifulSoup(result.content, "html.parser")
     eurusd = bs_obj.find("table", {"class": "tbl_exchange today"})
-    eurusd0 = eurusd.findAll("tr")
+    eurusd0 = eurusd.findAll("tr") 
 
     for index, table_rows in enumerate(eurusd0):
         if index > 0:
