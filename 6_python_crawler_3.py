@@ -18,5 +18,5 @@ def scrape_list_page(response):
         yield url
 
 
-if __name__ == '__name__':
+if __name__ == '__main__':
     main()
